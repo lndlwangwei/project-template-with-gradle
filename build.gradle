@@ -10,6 +10,14 @@ subprojects {
     targetCompatibility = 1.8
 
     repositories {
+        mavenLocal()
+        maven {
+            url 'http://36.110.49.106:8081/repository/maven-releases'
+
+        }
+        maven {
+            url 'http://36.110.49.106:8081/repository/maven-snapshots'
+        }
         mavenCentral()
     }
 

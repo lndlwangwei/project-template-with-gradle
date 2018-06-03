@@ -1,6 +1,7 @@
 package cn.iwangwei.user.support;
 
 import cn.iwangwei.user.User;
+
 import java.util.List;
 
 public interface UserService {
@@ -9,4 +10,6 @@ public interface UserService {
     List<User> findByCondition();
 
     User addUser();
+
+    List<User> getByCondition(String username);
 }

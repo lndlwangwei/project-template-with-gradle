@@ -14,6 +14,8 @@ public class User {
 
     private String userName;
 
+    private String password;
+
     public User(Long id, String userName) {
         this.id = id;
         this.userName = userName;
@@ -36,5 +38,13 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

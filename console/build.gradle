@@ -1,6 +1,7 @@
 dependencies {
     compile project(':core')
-    // https://mvnrepository.com/artifact/org.springframework/spring-web
     compile group: 'org.springframework', name: 'spring-web', version: '5.0.6.RELEASE'
+    compile group: 'org.apache.shiro', name: 'shiro-core', version: '1.4.0'
+    compile group: 'org.apache.shiro', name: 'shiro-spring', version: '1.4.0'
 
 }
