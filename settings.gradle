@@ -1,0 +1,6 @@
+rootProject.name = 'project-template-with-gradle'
+include 'console-webapp'
+include 'common'
+include 'console'
+include 'core'
+
